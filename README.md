@@ -5,11 +5,9 @@ Home: https://github.com/erocoar/gghalves
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gghalves-feedstock/blob/master/LICENSE.txt)
 
 Summary: A 'ggplot2' extension for easy plotting of half-half geom combinations. Think half boxplot and half jitterplot, or half violinplot and half dotplot.
-
-
 
 Current build status
 ====================

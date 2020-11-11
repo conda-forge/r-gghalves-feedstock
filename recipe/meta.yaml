@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gghalves_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gghalves/gghalves_{{ version }}.tar.gz
-  sha256: e8ac519144abe7b964c68b9a20639cbddb4abe51b12a26ac5c3a6e740fa34d9d
+  sha256: 834606bfe5b1091dab21c71f633917b2d0f9997164eae64e5628861cf34392f0
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
